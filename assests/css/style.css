@@ -6,3 +6,162 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  /* Navbar Start */
+  .navbar {
+    color:#0400fc;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.6)!important;
+  }
+
+  .navbar-brand {
+    color:#0400fc;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+  }
+
+  .navbar-nav li {
+    padding-right: .7rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color:#0400fc;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+  }
+  /* Navbar End */
+
+  .sections {
+    padding-top: 70px;
+   }
+   
+  img{
+    width: 101%;
+    padding: 0px 11.2px 0px 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+  
+  .image {
+    height: 1000px;
+    max-width: 101%;
+  }
+  
+  h1 {
+    color:#0400fc;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+  }
+
+  h4 {
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+  }
+
+  /* Jumbotron Style */
+  .jumbotron {
+  background-color:white;
+  width: 100%;
+  max-width: 100%;
+  }
+  
+  .jumbotron ,h1, p,strong {
+    line-height: 30px;
+  }
+
+  .card {
+    box-shadow: 0px 5px 10px 0px;
+    margin-bottom: 20px;
+    color : rgb(248, 202, 204);
+  }
+
+  .card-img, .card-img-bottom, .card-img-top {
+    width: 103%;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    border: 3px solid black;
+   -webkit-transform:scale(1.1);transform:scale(1.1);
+  }
+
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 5px;
+    background: rgba(0,0,0, .6);
+    margin:auto;
+  }
+  
+  /* Style For Section Contact */
+  #contact h1, label,.btn {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    width: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+  }
+
+  .btn:hover {
+    background-color: white;
+    color:black;
+  }
+
+  footer {
+    color:black;
+    text-transform: uppercase;
+    background-color:rgb(211, 71, 188) 2px 2px 3px;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  a i {
+    padding-right: 10px;
+    color:black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+
+  a i:hover {
+    color:#0400fc;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+    transform: scale(1.5);
+  
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+  }
+
+  .col-md-4 a i {
+    padding-left: 20px;
+  }
+
+  .col-md-4 a i:hover {
+    color:#0400fc;
+    text-shadow: rgb(211, 71, 188) 2px 2px 3px;
+  }
