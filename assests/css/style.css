@@ -1,0 +1,8 @@
+body {
+    position: relative; 
+    overflow-x: hidden;
+    color:#002df8;
+    font-family: 'Calistoga', cursive;
+    margin: 0;
+    padding: 0;
+  }
