@@ -1,52 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Daniel's Portfolio</title>
 
-    <link rel="icon" type="image/jpg" href="assets/images/favicon-16x16.png" />
+    <!-- Icon -->
+    <link rel="icon" type="image/jpg" href="assests/images/favicon-16x16.png" />
 
+    <!-- Google font -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
 
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js" integrity="sha512-PZrlUFhlOigX38TOCMdaYkhiqa/fET/Lztzjn+kdGxefUZanNUfmHv+9M/wSiOHzlcLX/vcCnmvOZSHi5Dqrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="assests/css/style.css" rel="stylesheet">
 
-
+    <!-- Scroll -->
+    <body data-spy="scroll" data-target="#navbar-1">
 </head>
 
-<body>
-
-    <section>
-        <div id="home">
-            <nav class="navbar navbar-expand-lg navbar-dark default-color bg-dark fixed-top">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1"
-                    aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Daniel Mendez</a>
-                <div class="collapse navbar-collapse" id="navbar-1">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item active ">
-                <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item active ">
-                <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+ <!-- Navbar and Image -->
+ <section>
+    <div id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark default-color bg-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-1"
+                aria-controls="navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Daniel Mendez</a>
+            <div class="collapse navbar-collapse" id="navbar-1">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active ">
+            <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item active ">
+            <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            </ul>
             </div>
-            </nav>
+        </nav>
             <div class="home-img">
                 <img class="image" src="assests/images/Dan smile.jpg">
             </div>
@@ -54,15 +55,15 @@
     </section>
 
     <section id="content">
-
+        <!----- About ----->
         <div id="about" class="sections">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1>About Me</h1>
+                    <h1>About me</h1>
                     <hr>
                     </hr>
-                    <br>
-                    <h4>Im a Real Estate Agent</h4>
+                        <br>
+                    <h4>Real Estate Agent</h4>
 
                     <p>
                         Hello, My name is Daniel Mendez. I am a real estate agent in the state of Connecticut and have been for 2 years.
@@ -75,37 +76,39 @@
                         into many jobs involving computers and coding.The one job that stood out to me the most is Software Engineering. From 
                         there I decided to take a Boot Camp class for coding and to take one more step into becoming a Software Engineer!
                     </p>
-                </head>
+
                 </div>
             </div>
         </div>
+
+        <!-- Portfolio -->
 
         <div class="sections" id="portfolio">
             <article class="container">
                 <h1>Portfolio</h1>
                 <hr>
-                <div class="row">
-                    <div class="">
+                <div class="row ">
+                    <div class="col-md-4">
                         <div class="card">
                             <a href="https://danprogramsit.github.io/Code-Refactoring/" target="_blank">
-                                <img class="card-img-top" src="assets/images/Horiseon crop.png" alt="Card image">
+                                <img class="card-img-top" src="assests/images/Horiseon crop.png" alt="Card image">
                                 <div class="card-body ">
                                     <h4 class="card-title">
                                         <a href="https://danprogramsit.github.io/Code-Refactoring/" target="_blank">Horiseon</a></h4>
                                     <p class="card-text">Horiseon is an amazing website that helps business owners by bringing customers to your website! It controls the online option that their clients will have access to.</p>
-
+                                
                                 </div>
                                 <a href="https://github.com/DanProgramsIt/Code-Refactoring/" target="_blank">
                                     <i class="fab fa-github-square fa-2x"></i>
                                 </a>
                         </div>
-                    </a>
-                    </div>
+                        </a>
 
-                    <div class="">
+                    </div>
+                    <div class="col-md-4">
                         <a href="https://danprogramsit.github.io/run-buddy/" target="_blank">
                             <div class="card">
-                            <img class="card-img-top" src="assets/images/Run Buddy crop.png" alt="Card image">
+                                <img class="card-img-top" src="assests/images/Run Buddy crop.png" alt="Card image">
                                 <div class="card-body ">
                                     <h4 class="card-title">
                                         <a href="https://danprogramsit.github.io/run-buddy/"target="_blank">Run Buddy</a></h4>
@@ -118,48 +121,53 @@
                             </div>
                         </a>
                     </article>
-                </div>
-
-                <div id="contact" class="sections">
-                    <div class="container">
-
-                        <form class="">
-                            <h1>Contact</h1>
-                            <div class="form-group">
-                                <label for="name">Name:</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email:</label>
-                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="msg">Message:</label>
-                                <textarea class="form-control" id="msg" placeholder="Enter message" name="msg"></textarea>
-                            </div>
-                            <button type="submit" class="btn">Send</button>
-                        </form>
                     </div>
-                </div>
-        </section>
+                    
 
-        <footer>
-            <div class="container-fluid">
-                <strong>Contact Info</strong>
-                <p>860-816-2768</p>
-                <p>soliddan211@gmail.com</p>
-                <a href="https://github.com/DanProgramsIt" target="_blank">
-                    <i class="fab fa-github-square fa-2x"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/daniel-mendez-3b846621b/" target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
+        <!-- Contact -->
+        <div id="contact" class="sections">
+            <div class="container">
+
+                <form class="col-md-4">
+                    <h1>Contact</h1>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="msg">Message:</label>
+                        <textarea class="form-control" id="msg" placeholder="Enter message" name="msg"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                </form>
             </div>
-        </footer>
+        </div>
+    </section>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <strong>Contact Info</strong>
+            <p>860-816-2768</p>
+            <p>soliddan211@gmail.com</p>
+            <a href="https://github.com/DanProgramsIt" target="_blank">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-mendez-3b846621b/" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- Footer End -->
 
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
 </body>
 </html>
