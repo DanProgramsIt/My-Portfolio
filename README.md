@@ -3,7 +3,7 @@
 Hello, and welcome to my portfolio, here you will find the resume of my career from this bootcamp. When you scroll down you will see the activities that I did.
 
 
- ![Homepage](assests\images\Home%20image.jpg)
+ ![Homepage](/assests/images/Home%20image.jpg)
 
  ___________________________________________________________________________________________
  
