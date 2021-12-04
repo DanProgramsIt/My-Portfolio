@@ -3,7 +3,7 @@
 Hello, and welcome to my portfolio, here you will find the resume of my career from this bootcamp. When you scroll down you will see the activities that I did.
 
 
- ![Homepage](/assets/images/Home-image.png)
+ ![Homepage](assests\images\Home image.jpg)
 
  ___________________________________________________________________________________________
  
@@ -17,7 +17,7 @@ Hello, and welcome to my portfolio, here you will find the resume of my career f
 
 
  ___________________________________________________________________________________________
-# Below find the navigation links, select one of the links to be taken to a category.
+## Below find the navigation links, select one of the links to be taken to a category.
 
 To access:[Home](https://danprogramsit.github.io/My-Portfolio/#home)
 
@@ -36,18 +36,18 @@ To access:[Contact](https://danprogramsit.github.io/My-Portfolio/#contact)
 
  **About Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/About-me-image.png)
+![1 images with their respective information of each link of the site navigation](/assets/images/About-me-image.jpg)
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Work I've Done**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Portfolio-image.png)
+![1 images with their respective information of each link of the site navigation](/assets/images/Portfolio-image.jpg)
 
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Contact Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Contact-me-image.png)
+![1 images with their respective information of each link of the site navigation](/assets/images/Contact-me-image.jpg)
 
  ___________________________________________________________________________________________
 
