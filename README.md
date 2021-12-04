@@ -3,7 +3,7 @@
 Hello, and welcome to my portfolio, here you will find the resume of my career from this bootcamp. When you scroll down you will see the activities that I did.
 
 
- ![Homepage](assests\images\Home image.jpg)
+ ![Homepage](assests\images\Home%20image.jpg)
 
  ___________________________________________________________________________________________
  
@@ -36,18 +36,18 @@ To access:[Contact](https://danprogramsit.github.io/My-Portfolio/#contact)
 
  **About Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/About-me-image.jpg)
+![1 images with their respective information of each link of the site navigation](/assets/images/About%20me%20image.jpg)
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Work I've Done**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Portfolio-image.jpg)
+![1 images with their respective information of each link of the site navigation](/assets/images/Portfolio%20image.jpg)
 
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Contact Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Contact-me-image.jpg)
+![1 images with their respective information of each link of the site navigation](/assets/images/Contact%20me%20image.jpg)
 
  ___________________________________________________________________________________________
 
