@@ -36,18 +36,18 @@ To access:[Contact](https://danprogramsit.github.io/My-Portfolio/#contact)
 
  **About Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/About%20me%20image.jpg)
+![1 images with their respective information of each link of the site navigation](/assests/images/About%20me%20image.jpg)
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Work I've Done**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Portfolio%20image.jpg)
+![1 images with their respective information of each link of the site navigation](/assests/images/Portfolio%20image.jpg)
 
  ___________________________________________________________________________________________
  ___________________________________________________________________________________________
 **Contact Me**
 
-![1 images with their respective information of each link of the site navigation](/assets/images/Contact%20me%20image.jpg)
+![1 images with their respective information of each link of the site navigation](/assests/images/Contact%20me%20image.jpg)
 
  ___________________________________________________________________________________________
 
